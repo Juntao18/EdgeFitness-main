@@ -7,17 +7,18 @@
     <title>Login</title>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/LoginStyle.css">
+    <script defer src="js/LoginScripts.js"></script>
 </head>
 
 <body>
     <div class="video-background">
-        <iframe 
-            src="https://www.youtube.com/embed/HnoPHqrdXQ8?start=71&autoplay=1&mute=1&loop=1&playlist=HnoPHqrdXQ8"
-            frameborder="0" 
+        <iframe src="https://www.youtube.com/embed/HnoPHqrdXQ8?start=71&autoplay=1&mute=1&loop=1&playlist=HnoPHqrdXQ8"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
     </div>
+
 
 
     <div class="container">
@@ -28,21 +29,25 @@
 
         <div class="right-section">
 
-            <form class="loginform">
-                
-                <h2 style="font-size: 60px">Start NOW</h2>
- 
+            <form class="loginform" id="loginform">
+
+                <h2 style="font-size: 50px">Start NOW</h2>
+
                 <input type="text" placeholder="Username" id="username" name="username" required>
-                
-                 <input type="password" placeholder="Password" id="password" name="password" required>
-    
+
+                <input type="password" placeholder="Password" id="password" name="password" required>
+
 
 
                 <!-- /*Create and forgot button:  */ -->
                 <div style="margin-top: 0px ;">
-                    <a href="Registration.html" style="text-decoration: none; margin-right: 15px; color: #d3d3d3d8; "><u>Create
+                    <a href="Registration.html"
+                        style="text-decoration: none; margin-right: 15px; color: #d3d3d3d8; "><u>Create
                             Account</u></a>
-                    <a href="ResetPassword.html" style="text-decoration: none;  color: #d3d3d3d8;"><u>Forgot Password?</u></a>
+
+                    <a href="ResetPassword.html" style="text-decoration: none;  color: #d3d3d3d8;"><u>Forgot
+                            Password?</u></a>
+
                 </div>
 
 
@@ -50,13 +55,14 @@
                 <button
                     style="width: 60%;display: block;margin-top: 20px; margin-left: 20%; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0.726);"
                     type="submit" style="font-size: 20px">Login</button>
-           
+
+
 
 
 
                 <!-- Social media login button -->
-                
-                <span>   <!--Shortcut to login-->
+
+                <span> <!--Shortcut to login-->
                     <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="FACEBOOK"></a>
                     <a href="https://www.instagram.com/"><img src="images/ins.png" alt="INS"></a>
                     <a href="https://www.tiktok.com/en/"><img src="images/tiktok.png" alt="tt"></a>
