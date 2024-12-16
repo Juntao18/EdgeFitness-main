@@ -8,7 +8,7 @@ function handleLogout() {
     localStorage.clear();
 
     // Redirect to login page
-    window.location.href = "Login.HTML";
+    window.location.href = "index.html";
   }
 }
 

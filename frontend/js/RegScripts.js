@@ -49,7 +49,7 @@ function registerAcc(form) {
     }).then((res) => {
         console.log(res);
         alert("Created user successfully");
-        window.location.href = "Login.HTML";
+        window.location.href = "html.html";
     })
 
 

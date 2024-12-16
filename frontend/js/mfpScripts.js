@@ -104,6 +104,6 @@ function handleLogout() {
   if (confirm("Are you sure you want to log out?")) {
     document.cookie = "sessionToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
     localStorage.clear();
-    window.location.href = "Login.HTML";
+    window.location.href = "index.html";
   }
 }

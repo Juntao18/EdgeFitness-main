@@ -46,7 +46,7 @@ function handleResetPassword() {
 
             if (data.success) {
                 alert("Password reset successfully! Redirecting to login page...");
-                window.location.href = "Login.HTML";
+                window.location.href = "index.html";
             } else {
                 document.getElementById("responseMessage").textContent = data.message || "An error occurred.";
             }
